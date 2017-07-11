@@ -1,5 +1,3 @@
-package spring;
-
 /**
  * Created by ShuangWang on 2017/7/11.
  */

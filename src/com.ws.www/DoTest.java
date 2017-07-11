@@ -1,5 +1,4 @@
-package spring;
-
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.Test;
 
@@ -9,8 +8,9 @@ import org.testng.annotations.Test;
 public class DoTest {
     @Test
     public void testIOC() throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/bean.xml");
-        Person person = (Person) context.getBean("person1");
+        //加载spring配置文件
+        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        Person person = (Person) ac.getBean("person1");
         System.out.println(person);
     }
 }
