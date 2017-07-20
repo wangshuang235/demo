@@ -14,7 +14,7 @@
         <!-- 配置数据库方言dialect -->
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="show_sql">true</property>
-        <property name="format_sql">true</property>
+        <!--<property name="format_sql">true</property>-->
         <!-- 指定自动生成数据表的策略 -->
         <property name="hbm2ddl.auto">update</property>
 
@@ -24,6 +24,7 @@
 
         <!-- 加载所有映射 -->
         <mapping resource="java/cn/ws/Person.hbm.xml"/>
+        <!--<mapping resource="java/cn/ws/Person.hbm.xml"/>-->
 
     </session-factory>
 </hibernate-configuration>

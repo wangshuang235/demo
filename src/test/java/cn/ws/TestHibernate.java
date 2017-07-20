@@ -17,7 +17,7 @@ public class TestHibernate {
         Person person = new Person();
         person.setName("ws");
         Configuration config = new Configuration();
-        config.configure("java/resources/hibernate.cfg.xml");
+        config.configure("hibernate.cfg.xml");
 
         SessionFactory sf = config.buildSessionFactory();
 
