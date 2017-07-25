@@ -22,12 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ws-data-mysql" />
+        <module name="ws-data-test" />
         <module name="ws-hibernate-mysql" />
         <module name="ws-mybatis-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring_test" target="1.5" />
+      <module name="ws-data-mysql" target="1.5" />
+      <module name="ws-data-test" target="1.5" />
       <module name="ws-hibernate-mysql" target="1.5" />
       <module name="ws-mybatis-mysql" target="1.5" />
     </bytecodeTargetLevel>
