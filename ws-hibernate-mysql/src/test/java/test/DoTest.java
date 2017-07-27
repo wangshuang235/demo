@@ -1,9 +1,11 @@
-package cn.ws.test;
+package test;
 
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.testng.annotations.Test;
+
 import cn.ws.entites.Person;
+
 
 /**
  * Created by ShuangWang on 2017/7/11.

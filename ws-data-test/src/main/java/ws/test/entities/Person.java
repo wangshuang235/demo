@@ -3,8 +3,11 @@ package ws.test.entities;
 /**
  * Created by ShuangWang on 2017/7/24.
  */
+@WangShuang(name = "wangshuang", age = 10)
 public class Person {
+
     private int id;
+
     private String name;
 
     public String getName() {

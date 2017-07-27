@@ -2,63 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f812f58-40a3-4fca-a59d-f83e1809f2ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/MybatisMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/annotations/Indexed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/sql/builders/AbstractSqlBulder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/utils/SQLUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/resources/spring-contexts/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/src/main/resources/spring-contexts/spring-mysql-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-mysql/ws-data-mysql.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/dao/TestMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/main/resources/spring-contexts/spring-account-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/test/java/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/ws-data-test.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_6_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/pom.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/controller/LinkController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/exception/UserNotFound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/repository/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/service/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/test/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/resources/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/src/main/resources/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-jpa/ws-data-jpa.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Hello.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/WangShuang.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/test/java/Test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-data-test/src/test/java/TestReflect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestIOC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/PersonMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring_test.iml" afterPath="$PROJECT_DIR$/spring_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-data-mysql/ws-data-mysql.iml" afterPath="$PROJECT_DIR$/ws-data-mysql/ws-data-mysql.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java" afterPath="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-data-test/ws-data-test.iml" afterPath="$PROJECT_DIR$/ws-data-test/ws-data-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/pom.xml" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/ws-hibernate-mysql.iml" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/ws-hibernate-mysql.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/logs/ssm.log" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/logs/ssm.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/pom.xml" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws-mybatis-mysql/ws-mybatis-mysql.iml" afterPath="$PROJECT_DIR$/ws-mybatis-mysql/ws-mybatis-mysql.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_8_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/DoTest.java" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/DoTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/TestBigDecimal.java" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestBigDecimal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/TestHibernate.java" afterPath="$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestHibernate.java" />
     </list>
     <ignored path="spring_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +64,7 @@
     <ignored path="$PROJECT_DIR$/ws-mybatis-mysql/target/" />
     <ignored path="$PROJECT_DIR$/ws-data-mysql/target/" />
     <ignored path="$PROJECT_DIR$/ws-data-test/target/" />
+    <ignored path="$PROJECT_DIR$/ws-data-jpa/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,34 +80,14 @@
     <favorites_list name="spring_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ws-data-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -126,25 +102,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.ws.www/bean.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/DoTestt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/www/w/DoTestt.java" />
-        <option value="$PROJECT_DIR$/src/com.ws.www/README" />
-        <option value="$PROJECT_DIR$/src/com.ws.www/TestBigDecimal.java" />
-        <option value="$PROJECT_DIR$/src/com.ws.www/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/com.ws.www/DoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ws/TestBigDecimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ws/DoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/ws/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ws/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/ws/Person.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ws/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/ws/TestHibernate.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ws/utils/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ws/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/ws-hibernate-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/ws/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/ws/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/ws/TestHibernate.java" />
@@ -152,20 +111,15 @@
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/ws/test/DoTest.java" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/ws/test/TestHibernate.java" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/utils/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java" />
-        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/test.java" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/test/test.java" />
-        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/ws-mybatis-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/ws-data-mysql/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/utils/SQLUtils.java" />
         <option value="$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/sql/builders/AbstractSqlBulder.java" />
         <option value="$PROJECT_DIR$/ws-data-test/pom.xml" />
@@ -177,6 +131,28 @@
         <option value="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/dao/TestMapper.java" />
         <option value="$PROJECT_DIR$/ws-data-test/src/test/java/TestDao.java" />
         <option value="$PROJECT_DIR$/ws-data-test/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java" />
+        <option value="$PROJECT_DIR$/ws-hibernate-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/DoTest.java" />
+        <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/TestIOC.java" />
+        <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestIOC.java" />
+        <option value="$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/test/java/Test1.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Hello.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/test/java/TestReflect.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/ws.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/WangShuang.java" />
+        <option value="$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/src/main/java/usermanage/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/src/main/resources/persistence.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/ws-data-jpa/readme.md" />
       </list>
     </option>
   </component>
@@ -197,6 +173,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -254,9 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,43 +253,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws-data-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="D:/download/chrome_download/SpringDataJPA-1-J2EE/源码/usermanage/WebContent/WEB-INF/lib/spring-webmvc-4.1.5.RELEASE.jar!/" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2678161" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.ws" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\ideaProject\demo\ws-data-jpa" />
+      <recent name="E:\work\ideaProject\demo\ws-data-jpa\src\main\java" />
       <recent name="E:\work\ideaProject\demo\ws-data-test\src\main\resources" />
       <recent name="E:\work\ideaProject\demo\ws-data-mysql\src\main\java" />
       <recent name="E:\work\ideaProject\demo\ws-data-mysql\src\main\resources\spring-contexts" />
-      <recent name="E:\work\ideaProject\demo\ws-data-mysql\src\main\resources" />
-      <recent name="E:\work\ideaProject\demo\ws-mybatis-mysql\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="mysql" />
@@ -320,11 +287,11 @@
       <recent name="cn.ws" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\ideaProject\demo\ws-mybatis-mysql\src\main\resources" />
       <recent name="E:\work\ideaProject\demo\ws-hibernate-mysql\src\main\resources" />
       <recent name="E:\work\ideaProject\demo\ws-hibernate-mysql\src\main\java\ws\entites" />
       <recent name="$PROJECT_DIR$/src/main/java/resources" />
       <recent name="C:\Users\ShuangWang\IdeaProjects\demo\src\main\java\cn\ws" />
-      <recent name="C:\Users\ShuangWang\IdeaProjects\demo\src\test\java\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,20 +306,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.test1 (2)">
-    <configuration default="false" name="PersonDao.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration default="false" name="TestIOC.testIOC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.ws.dao.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ws-hibernate-mysql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ws.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.ws.dao.PersonDao" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestIOC" />
+      <option name="METHOD_NAME" value="testIOC" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -366,13 +333,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ws-mybatis-mysql" />
+      <module name="ws-data-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -387,44 +354,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="test.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.ws.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ws-mybatis-mysql" />
+    <configuration default="false" name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ws-data-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ws.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.ws.mybatis.test.test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.ws.mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ws-mybatis-mysql" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.ws.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.ws.mybatis.test.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -439,13 +375,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="test.test1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestReflect.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ws-data-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="TestReflect" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -458,6 +394,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jike.usermanage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.jike.usermanage.test.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ws-data-jpa" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -783,6 +739,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -876,19 +854,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PersonDao.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.test.test1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.test.test1 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.test.test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.test.test1 (2)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestIOC.testIOC (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test1.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test1.test2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestReflect.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test.test1 (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.test.test1 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.test.test2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PersonDao.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestReflect.test1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test1.test2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test1.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestIOC.testIOC (1)" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -945,6 +923,10 @@
       <workItem from="1500894216909" duration="4023000" />
       <workItem from="1500898260355" duration="52000" />
       <workItem from="1500946068847" duration="8171000" />
+      <workItem from="1500959922499" duration="65000" />
+      <workItem from="1500960309915" duration="10248000" />
+      <workItem from="1501038900062" duration="8116000" />
+      <workItem from="1501123067079" duration="8806000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis搭建失败">
       <created>1500898295513</created>
@@ -957,39 +939,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_test1 - 2017.07.25 at 09h 31m 18s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
+    <history-entry file="Test1_test2 - 2017.07.26 at 17h 24m 01s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1 - 2017.07.25 at 10h 02m 52s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 01m 32s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 35m 39s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 02m 04s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 36m 16s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 03m 51s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 41m 37s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 04m 07s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 51m 36s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 10m 26s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 52m 27s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 12m 09s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(1) - 2017.07.25 at 09h 55m 47s.xml">
-      <configuration name="test.test1 (1)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 12m 33s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test1_(2) - 2017.07.25 at 12h 15m 10s.xml">
-      <configuration name="test.test1 (2)" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 12m 57s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_test2 - 2017.07.25 at 09h 41m 14s.xml">
-      <configuration name="test.test2" configurationId="JUnit" />
+    <history-entry file="TestReflect_test1 - 2017.07.26 at 19h 15m 58s.xml">
+      <configuration name="TestReflect.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31642000" />
+    <option name="totallyTimeSpent" value="58877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,38 +987,40 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27440348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.77982646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21215352" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3326226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24403471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36008677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11605206" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39262474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.77982646" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1091,7 +1075,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1100,12 +1084,191 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/www/w/DoTestt.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/bean.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/README" />
-    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/util/Calendar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/Person.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/annotation/Configuration.class" />
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestBigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/DoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/entites/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/test/java/test/TestIOC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/target/test-classes/test.class" />
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/target/classes/PersonMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/target/classes/bean.xml" />
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="58" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/logs/ssm.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11712">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/target/classes/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="11" column="25" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1780" column="46" selection-start-line="1780" selection-start-column="41" selection-end-line="1780" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_121/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#140#141#0" expanded="false" />
+            <element signature="e#193#194#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1113,287 +1276,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/DoTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.10.Final/hibernate-core-5.2.10.Final.jar!/org/hibernate/cfg/Configuration.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/TestBigDecimal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/Person.hbm.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.10.Final/hibernate-core-5.2.10.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/dao/BaseDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/utils/HibernateUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ws/TestHibernate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ws/dao/PersonDao.java" />
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/TestBigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/TestHibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/utils/HibernateUtils.java">
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/test/java/TestReflect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/bean.xml">
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/WangShuang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/entites/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="1" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/entities/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/xml/registry/infomodel/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/src/main/java/cn/ws/test/DoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/annotations/Indexed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/sql/builders/AbstractSqlBulder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/utils/SQLUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/resources/spring-contexts/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ws-data-mysql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="792">
+          <caret line="44" column="21" selection-start-line="13" selection-start-column="8" selection-end-line="44" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/resources/spring-contexts/spring-mysql-context.xml">
+    <entry file="file://$PROJECT_DIR$/ws-hibernate-mysql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#910#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/java/cn/ws/mybatis/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="324">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/java/mysql/MybatisMapper.java">
+    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="234">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/main/resources/bean.xml">
+    <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/entities/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="58" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="58" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/java/ws/test/dao/TestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="108">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/exception/UserNotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/controller/LinkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-test/src/test/java/test.java">
+    <entry file="file://$PROJECT_DIR$/ws-data-mysql/src/main/resources/spring-contexts/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-test/src/main/resources/spring-contexts/spring-account-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="18">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-data-test/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="189">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ws-mybatis-mysql/src/test/java/test.java">
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/pom.bak">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/resources/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws-data-jpa/src/main/java/com/jike/usermanage/test/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1442,7 +1500,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2678161" />
               </list>
             </option>
           </splitter-proportions>
@@ -1450,12 +1508,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ws-hibernate-mysql</last-edited>
+          <last-edited>ws-data-jpa</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.2678161" />
               </list>
             </option>
           </splitter-proportions>
@@ -1479,7 +1536,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2678161" />
               </list>
             </option>
           </splitter-proportions>

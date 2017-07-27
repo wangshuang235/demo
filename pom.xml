@@ -6,10 +6,11 @@
   <artifactId>test</artifactId>
   <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ws-hibernate-mysql</module>
-        <module>ws-mybatis-mysql</module>
+      <module>ws-hibernate-mysql</module>
+      <module>ws-mybatis-mysql</module>
       <module>ws-data-mysql</module>
       <module>ws-data-test</module>
+        <module>ws-data-jpa</module>
     </modules>
     <packaging>pom</packaging>
   <name>test</name>
@@ -24,20 +25,19 @@
     <!-- log4j日志文件管理包版本 -->
     <slf4j.version>1.7.7</slf4j.version>
     <log4j.version>1.2.17</log4j.version>
-
+    <!--pagehelper分页工具-->
     <pagehelper.version>5.0.3</pagehelper.version>
+    <!--alibaba连接池-->
     <druid.version>1.0.18</druid.version>
+    <junit.version>4.12</junit.version>
+
+    <hibernate-core.version>4.2.0.Final</hibernate-core.version>
+
     <spring.data.commons.version>1.12.5.RELEASE</spring.data.commons.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.12</version>
-        <scope>test</scope>
-      </dependency>
       <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
       <dependency>
         <groupId>commons-logging</groupId>
@@ -63,11 +63,14 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.11</version>
-        <!-- 表示开发的时候引入，发布的时候不会加载此包 -->
-        <scope>test</scope>
+        <version>${junit.version}</version>
       </dependency>
       <!-- spring核心包 -->
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-jpa</artifactId>
+        <version>1.11.5.RELEASE</version>
+      </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
@@ -113,6 +116,12 @@
         <artifactId>spring-test</artifactId>
         <version>${spring.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
@@ -228,6 +237,51 @@
         <artifactId>spring-data-commons</artifactId>
         <version>${spring.data.commons.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>${hibernate-core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+        <version>3.4.0.GA</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.5.1</version>
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+            <encoding>UTF-8</encoding>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.0.1</version>
+          <configuration>
+            <encoding>UTF-8</encoding>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>

@@ -4,7 +4,7 @@ package cn.ws.mybatis.entities;
  * Created by ShuangWang on 2017/7/24.
  */
 public class Person {
-    private int pId;
+    private int id;
     private String name;
 
     public String getName() {
@@ -15,11 +15,11 @@ public class Person {
         this.name = name;
     }
 
-    public int getpId() {
-        return pId;
+    public int getId() {
+        return id;
     }
 
-    public void setpId(int pId) {
-        this.pId = pId;
+    public void setId(int id) {
+        this.id = id;
     }
 }

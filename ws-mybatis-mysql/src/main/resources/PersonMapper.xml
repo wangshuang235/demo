@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Person">
+
+    <resultMap type="cn.ws.mybatis.entities.Person" id="personMap">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+
+    <insert id="add" parameterType="cn.ws.mybatis.entities.Person">
+        insert into person(id,name)
+        values(#{id},#{name});
+    </insert>
+
+
+    <select id="findAll" parameterType="map" resultMap="personMap">
+        select id, name
+        from students
+    </select>
+
+</mapper>
+
+
+
+

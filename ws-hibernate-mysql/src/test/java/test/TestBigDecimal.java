@@ -1,4 +1,4 @@
-package cn.ws.test;
+package test;
 
 import org.junit.Test;
 

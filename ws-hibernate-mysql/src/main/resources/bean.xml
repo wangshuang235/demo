@@ -9,11 +9,12 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- IOC容器的配置： 要创建的所有的对象都配置在这里
-    <bean id="user" class="cn.itcast.a_hello.User" init-method="init_user" destroy-method="destroy_user" scope="singleton" lazy-init="false"></bean>
-     -->
-
-    <bean id="person1" class="cn.ws.entites.Person"></bean>
+    <bean id="person1" class="cn.ws.entites.Person">
+        <property name="name" value="ws"></property>
+    </bean>
+    <bean id="person2" class="cn.ws.entites.Person">
+        <property name="name" value="ws"></property>
+    </bean>
 </beans>
 
 
