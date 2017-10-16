@@ -1,3 +1,4 @@
+/*
 package cn.ws.dao;
 
 
@@ -10,21 +11,27 @@ import cn.ws.entites.Person;
 import java.io.Serializable;
 import java.util.List;
 
+*/
 /**
  * Created by wangshuang on 17-7-20.
- */
+ *//*
+
 public class PersonDao implements BaseDao<Person> {
     Session session = null;
     Transaction tx = null;
     @Test
     public void test() {
-        /*Person person = new Person();
+        */
+/*Person person = new Person();
         person.setName("ws1");
-        save(person);*/
-        /*List<Person> personList = getAll(1, 2);
+        save(person);*//*
+
+        */
+/*List<Person> personList = getAll(1, 2);
         for (Person p : personList) {
             System.out.println(p.getpId());
-        }*/
+        }*//*
+
         System.out.println(getAll());
     }
     public void save(Person person) {
@@ -109,3 +116,4 @@ public class PersonDao implements BaseDao<Person> {
         session.close();
     }
 }
+*/

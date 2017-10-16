@@ -22,20 +22,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="test_demo" />
         <module name="ws-data-jpa" />
         <module name="ws-data-mysql" />
-        <module name="ws-data-test" />
         <module name="ws-hibernate-mysql" />
         <module name="ws-mybatis-mysql" />
+        <module name="ws-web-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="spring_test" target="1.8" />
+      <module name="test_demo" target="1.8" />
       <module name="ws-data-jpa" target="1.8" />
       <module name="ws-data-mysql" target="1.8" />
       <module name="ws-data-test" target="1.8" />
       <module name="ws-hibernate-mysql" target="1.8" />
       <module name="ws-mybatis-mysql" target="1.8" />
+      <module name="ws-web-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
